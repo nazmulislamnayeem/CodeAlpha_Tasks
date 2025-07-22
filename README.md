@@ -33,11 +33,9 @@ Install Scapy Library: pip install scapy
 
 ## 🛠️ How to Run
 
-1. Install required library: pip install scapy
+1. Run cmd as administrator (for packet capture permission):  python NetworkSniffer.py
    
-3. Run script as administrator (for packet capture permission): python NetworkSniffer.py
-   
-5. Output example: Protocol: TCP (#6) | Src: 192.168.0.105 -> Dst: 172.217.166.174 | Payload: GET / HTTP/1.1
+2. Output example: Protocol: TCP (#6) | Src: 192.168.0.105 -> Dst: 172.217.166.174 | Payload: GET / HTTP/1.1
 
 ---
 
