@@ -18,6 +18,7 @@ def process_packet(packet):
         src_ip = ip_layer.src
         dst_ip = ip_layer.dst
 
+    
         if packet.haslayer(Raw):
             raw_data = bytes(packet[Raw].load)
             if is_printable(raw_data):
