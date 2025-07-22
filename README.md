@@ -1,10 +1,8 @@
+🛠️ Network Sniffer (Python + Scapy)
+
+
 This project is a **Python-based real-time network sniffer** built using the `scapy` library. It captures and analyzes live packets from the network, extracting:
 
-- Source and destination IP addresses
-- Protocol type and number (TCP, UDP, ICMP, ARP)
-- Raw payloads (decoded safely or shown in hex)
-  
----
 ## 🔍 Features
 
 - Real-time packet capture
@@ -16,6 +14,16 @@ This project is a **Python-based real-time network sniffer** built using the `sc
 - Cross-platform (tested on **Windows 11 with Scapy**)
 
 ---
+🐍 Requirements
+Python 3.6+
+Scapy
+Npcap (on Windows)  
+
+
+INSTALLATION &DOWNLOAD LINK: :
+Python: https://www.python.org/downloads/
+Npcap (required for Scapy on Windows): https://npcap.com/#download
+Install Scapy Library: pip install scapy
 
 ## 🛠️ How to Run
 
