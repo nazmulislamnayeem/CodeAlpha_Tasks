@@ -23,7 +23,7 @@ Scapy
 Npcap (on Windows)  
 
 
-## INSTALLATION &DOWNLOAD LINK: :
+## INSTALLATION:
 
 Python: https://www.python.org/downloads/
 
@@ -31,16 +31,21 @@ Npcap (required for Scapy on Windows): https://npcap.com/#download
 
 Install Scapy Library: pip install scapy
 
+## For Linux: 
+
+sudo apt install python3 -y
+
+sudo apt install python3-pip -y
+
+pip3 install scapy
+
+nano NetworkSniffer.py (Copy NetworkSniffer.py code and paste Inside nano....)
+
+
 ## 🛠️ How to Run
 
 1. Run cmd as administrator :  python NetworkSniffer.py (copy &  Paste the Python Code in VS CODE and ctrl + S)
    
-2. Output example: Protocol: TCP (#6) | Src: 192.168.0.105 -> Dst: 172.217.166.174 | Payload: GET / HTTP/1.1
+2. sudo python3 NetworkSniffer.py( For Linux, Scapy needs root access for run )
 
----
-
-## 👨‍💻 Author
-**Nazmul Islam Nayeem**  
-Cyber Security Intern @CodeAlpha  
-📧 [nazmulislamnayeem03@gmail.com](mailto:nazmulislamnayeem03@gmail.com)  
-🔗 [LinkedIn :- https://www.linkedin.com/in/nazmulin12035/]
+3. Output example: Protocol: TCP (#6) | Src: 192.168.0.105 -> Dst: 172.217.166.174 | Payload: GET / HTTP/1.1
